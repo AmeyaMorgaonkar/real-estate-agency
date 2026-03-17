@@ -1,0 +1,7 @@
+{
+  "buildCommand": "vite build",
+  "outputDirectory": "dist/spa",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
